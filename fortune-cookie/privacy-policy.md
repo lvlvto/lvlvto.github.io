@@ -4,9 +4,7 @@ title: "Fortune Cookie — Privacy Policy"
 permalink: /fortune-cookie/privacy-policy
 ---
 
-**Last updated: February 12, 2026**
-
-Last updated: February 13, 2026
+**Last updated: February 19, 2026**
 
 ## Introduction
 
