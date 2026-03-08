@@ -70,4 +70,4 @@ We may update this Privacy Policy from time to time. Changes will be effective i
 
 ## Contact
 
-If you have any questions about this Privacy Policy, please contact the Developer using the contact information provided in the Google Play store or App Store listing.
+If you have any questions about this Privacy Policy, please contact the Developer using the contact information provided in the Google Play store or App Store listing. You can also send mail at kursoftware@gmail.com
