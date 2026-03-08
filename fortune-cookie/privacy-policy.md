@@ -4,7 +4,7 @@ title: "Fortune Cookie — Privacy Policy"
 permalink: /fortune-cookie/privacy-policy
 ---
 
-**Last updated: February 19, 2026**
+**Last updated: March 8, 2026**
 
 ## Introduction
 
@@ -62,7 +62,7 @@ We take reasonable measures to protect collected data. However, no method of ele
 
 ## Children’s Privacy
 
-We do not knowingly collect personal data from children. If you believe that a child has provided personal data, please contact us so it can be removed.
+We do not knowingly collect personal data from children.
 
 ## Changes to This Privacy Policy
 
@@ -70,4 +70,4 @@ We may update this Privacy Policy from time to time. Changes will be effective i
 
 ## Contact
 
-If you have any questions about this Privacy Policy, please contact the Developer using the contact information provided in the Google Play store listing.
+If you have any questions about this Privacy Policy, please contact the Developer using the contact information provided in the Google Play store or App Store listing.
