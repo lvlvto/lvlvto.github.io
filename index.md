@@ -12,4 +12,4 @@ title: Home
 
 # Terms and Conditions
 
-- [Speed Math — Terms and Conditions](/speed-math/terms-and-conditions)
+- [Quick Math Solver — Terms and Conditions](/quick-math-solver/terms-and-conditions)
