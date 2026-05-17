@@ -9,6 +9,7 @@ title: Home
 - [Measure Height — Privacy Policy](/measure-height/privacy-policy)
 - [Progress Tracker & Goals — Privacy Policy](/progress-tracker/privacy-policy)
 - [Quick Math Solver — Privacy Policy](/quick-math-solver/privacy-policy)
+- [Reflexa — Privacy Policy](/reflexa/privacy-policy)
 
 # Terms and Conditions
 
