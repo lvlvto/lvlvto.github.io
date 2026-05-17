@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Reflexa — Privacy Policy"
-permalink: /reflexa/privacy-policy
+title: "Reflexo — Privacy Policy"
+permalink: /reflexo/privacy-policy
 ---
 
 **Last updated: May 17, 2026**
