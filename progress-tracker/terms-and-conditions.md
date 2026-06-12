@@ -40,4 +40,4 @@ These Terms are governed by the laws of the jurisdiction in which the Developer 
 
 ## Contact
 
-If you have any questions about these Terms, please contact the Developer using the contact information provided in the Google Play store or App Store listing.
+If you have any questions about these Terms, please contact the Developer by email at kurmerch@gmail.com or using the contact information provided in the Google Play store or App Store listing.
