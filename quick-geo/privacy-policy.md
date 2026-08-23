@@ -8,43 +8,59 @@ permalink: /quick-geo/privacy-policy
 
 ## Introduction
 
-This Privacy Policy explains how the developer ("Developer", "we", "us") handles information when you use the QuickGeo mobile application (the "App").
+This Privacy Policy explains how the developer ("Developer", "we", "us") collects, uses, and protects information when you use the QuickGeo mobile application (the "App").
 
-By using the App, you agree to this Privacy Policy.
+By using the App, you agree to the collection and use of information in accordance with this Privacy Policy.
 
 ## Information We Collect
 
-**The App does not collect any data.**
+The App does not collect personally identifiable information such as your name, email address, phone number, or precise location.
 
-The App does not collect personally identifiable information such as your name, email address, phone number, or precise location. It contains no analytics, no crash reporting, no advertising, and no tracking of any kind.
+The App uses Firebase, a service provided by Google, to collect anonymous analytics and diagnostic data.
 
-The App works entirely offline. It has no network access and never transmits any information from your device.
+This data may include:
+
+app usage statistics,
+
+device information (e.g. device model, operating system version),
+
+anonymized identifiers, including the advertising identifier on Android,
+
+crash reports and performance data,
+
+interaction data (e.g. which quiz modes are played).
 
 ## Information Stored on Your Device
 
-The App saves your settings and your quiz progress (for example the time allowed per question, the control mode, and your scores) in the device's local storage.
+Your settings and your quiz progress (for example the time allowed per question, the control mode, and your scores) are saved in the device's local storage.
 
-This information:
-
-stays on your device,
-
-is never sent to us or to anyone else,
-
-is not linked to your identity,
-
-is removed when you uninstall the App.
+This information stays on your device, is never sent to us, and is removed when you uninstall the App.
 
 ## How We Use the Information
 
-Because no data leaves your device, there is nothing for us to use, analyze, or profile. We have no access to how you use the App.
+Collected data is used solely to:
+
+analyze app performance,
+
+identify and fix bugs and crashes,
+
+improve functionality and user experience,
+
+monitor overall app usage trends.
+
+We do not use this data for advertising, marketing, or user profiling.
 
 ## Data Sharing
 
-We do not collect user data, so there is nothing to sell, trade, rent, or share with third parties.
+We do not sell, trade, or rent user data to third parties.
+
+Data collected via Firebase is processed by Google in accordance with their privacy and security standards and may be stored on servers located outside your country of residence.
 
 ## Third-Party Services
 
-The App does not use any third-party analytics, advertising, or backend services.
+The App relies on third-party services that may collect information used to identify you.
+
+Firebase is operated by Google LLC and is subject to Google's Privacy Policy. We recommend reviewing Google's privacy practices to understand how data is handled.
 
 ## Purchases
 
@@ -54,11 +70,11 @@ Payment is handled entirely by Apple's App Store or Google Play. We never receiv
 
 ## Data Security
 
-Since no data is transmitted or stored outside your device, the security of your information depends on your device and its own protections.
+We take reasonable measures to protect collected data. However, no method of electronic transmission or storage is 100% secure, and absolute security cannot be guaranteed.
 
 ## Children's Privacy
 
-We do not knowingly collect personal data from children. In fact, the App does not collect personal data from anyone.
+We do not knowingly collect personal data from children.
 
 ## Changes to This Privacy Policy
 
