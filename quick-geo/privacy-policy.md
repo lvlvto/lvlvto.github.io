@@ -24,7 +24,7 @@ app usage statistics,
 
 device information (e.g. device model, operating system version),
 
-anonymized identifiers, including the advertising identifier on Android,
+anonymized identifiers,
 
 crash reports and performance data,
 
@@ -61,6 +61,8 @@ Data collected via Firebase is processed by Google in accordance with their priv
 The App relies on third-party services that may collect information used to identify you.
 
 Firebase is operated by Google LLC and is subject to Google's Privacy Policy. We recommend reviewing Google's privacy practices to understand how data is handled.
+
+The App does not collect the advertising identifier. Collection of that identifier is disabled and the permission that grants access to it is removed from the App.
 
 ## Purchases
 
