@@ -21,6 +21,10 @@ title: Home
 - [Privacy Policy](/quick-math-solver/privacy-policy)
 - [Terms and Conditions](/quick-math-solver/terms-and-conditions)
 
+## QuickGeo
+
+- [Privacy Policy](/quick-geo/privacy-policy)
+
 ## Reflexo
 
 - [Privacy Policy](/reflexo/privacy-policy)
