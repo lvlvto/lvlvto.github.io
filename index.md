@@ -24,6 +24,7 @@ title: Home
 ## QuickGeo
 
 - [Privacy Policy](/quick-geo/privacy-policy)
+- [Support](/quick-geo/support)
 
 ## Reflexo
 
