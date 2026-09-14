@@ -7,7 +7,7 @@ permalink: /quick-geo/support
 **QuickGeo: Geography Quiz** — flags, capitals and US states.
 
 Something not working, or an answer you think is wrong? Email
-**kurmerch@gmail.com** and include your device model and iOS or Android version.
+**kursoftware@gmail.com** and include your device model and iOS or Android version.
 Reports about a specific country or state are especially welcome — please say
 which mode you were playing.
 
