@@ -1,5 +1,6 @@
-title: lvlvto
-description: Privacy policies, terms and support for my apps
-theme: minima
+title: KurSoftware
+description: Privacy policies, terms and support for KurSoftware apps
 url: "https://lvlvto.github.io"
-header_pages: []
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
