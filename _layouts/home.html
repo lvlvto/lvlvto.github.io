@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-mark">{% include logo.svg id="hero" size=88 %}</div>
+    <h1><b>Kur</b>Software</h1>
+    <div class="intro">{{ content }}</div>
+    <ul class="pills">
+      <li class="pill">{{ site.data.apps | size }} apps</li>
+      <li class="pill">App Store</li>
+      <li class="pill">Google Play</li>
+    </ul>
+  </div>
+</section>
+
+<section class="wrap apps">
+  <h2 class="section-label">Apps</h2>
+  <ul class="app-grid">
+    {%- for app in site.data.apps %}
+    <li class="app-card" style="--accent: {{ app.accent }}">
+      <img class="app-icon" src="{{ app.icon | relative_url }}" alt="" width="72" height="72">
+      <div class="app-card-body">
+        <h3><a class="stretched" href="{{ '/' | append: app.slug | append: '/' | relative_url }}">{{ app.name | escape }}</a></h3>
+        <p>{{ app.tagline }}</p>
+        <ul class="chips">
+          {%- for doc in app.docs %}
+          <li><a class="chip" href="{{ doc.url | relative_url }}">{{ doc.title }}</a></li>
+          {%- endfor %}
+        </ul>
+      </div>
+    </li>
+    {%- endfor %}
+  </ul>
+
+  {%- for app in site.data.apps %}{% if app.legacy %}
+  <p class="note">{{ app.name }} was released as <strong>Speed Math</strong>. Its earlier <a href="{{ app.legacy.url | relative_url }}">Terms and Conditions</a> stay published so links from that period keep working.</p>
+  {%- endif %}{% endfor %}
+</section>

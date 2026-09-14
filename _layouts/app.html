@@ -1,0 +1,56 @@
+---
+layout: default
+---
+{%- assign app = site.data.apps | where: "slug", page.app | first -%}
+<div class="accent-scope" style="--accent: {{ app.accent }}">
+  <section class="app-hero">
+    <div class="wrap wrap-narrow">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ '/' | relative_url }}">All apps</a> <span aria-hidden="true">/</span> {{ app.name | escape }}</nav>
+      <div class="app-head">
+        <img class="app-icon" src="{{ app.icon | relative_url }}" alt="{{ app.name | escape }} icon" width="112" height="112">
+        <div>
+          <h1>{{ app.name | escape }}</h1>
+          <p>{{ app.tagline }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap wrap-narrow app-docs">
+    <h2 class="section-label">Documents</h2>
+    <ul class="doc-list">
+      {%- for doc in app.docs %}
+      <li>
+        <a class="doc-link" href="{{ doc.url | relative_url }}">
+          <span class="doc-ico">{% include doc-icon.html kind=doc.kind %}</span>
+          <span class="doc-text">
+            <strong>{{ doc.title }}</strong>
+            <span>
+              {%- case doc.kind -%}
+              {%- when "privacy" -%}What the app collects, why, and who processes it.
+              {%- when "terms" -%}The rules for using the app.
+              {%- when "support" -%}Answers to common questions and how to get help.
+              {%- endcase -%}
+            </span>
+          </span>
+          <span class="doc-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+      </li>
+      {%- endfor %}
+      {%- if app.legacy %}
+      <li>
+        <a class="doc-link doc-link-legacy" href="{{ app.legacy.url | relative_url }}">
+          <span class="doc-ico">{% include doc-icon.html kind="terms" %}</span>
+          <span class="doc-text">
+            <strong>{{ app.legacy.title }}</strong>
+            <span>Archived — from when the app was released as Speed Math.</span>
+          </span>
+          <span class="doc-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+      </li>
+      {%- endif %}
+    </ul>
+
+    <p class="contact">Questions about {{ app.name | escape }}? Email <a href="mailto:kurmerch@gmail.com">kurmerch@gmail.com</a>.</p>
+  </section>
+</div>
