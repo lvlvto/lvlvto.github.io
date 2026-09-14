@@ -1,0 +1,42 @@
+---
+layout: default
+---
+{%- assign segments = page.url | split: "/" -%}
+{%- assign folder = segments[1] -%}
+{%- assign app = nil -%}
+{%- for a in site.data.apps -%}
+  {%- if a.slug == folder or a.aliases contains folder -%}{%- assign app = a -%}{%- endif -%}
+{%- endfor -%}
+{%- assign doc_title = page.title | split: " — " | last -%}
+
+<div class="accent-scope"{% if app %} style="--accent: {{ app.accent }}"{% endif %}>
+  <section class="doc-hero">
+    <div class="wrap wrap-narrow">
+      {%- if app %}
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="{{ '/' | relative_url }}">All apps</a> <span aria-hidden="true">/</span>
+        <a class="crumb-app" href="{{ '/' | append: app.slug | append: '/' | relative_url }}"><img src="{{ app.icon | relative_url }}" alt="" width="22" height="22">{{ app.name | escape }}</a>
+      </nav>
+      {%- endif %}
+      <h1>{{ doc_title | escape }}</h1>
+
+      {%- if app and folder == app.slug and app.docs.size > 1 %}
+      <ul class="tabs">
+        {%- for doc in app.docs %}
+        <li><a class="tab" href="{{ doc.url | relative_url }}"{% if doc.url == page.url %} aria-current="page"{% endif %}>{{ doc.title }}</a></li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
+
+      {%- if app and folder != app.slug %}
+      <p class="notice">Archived. {{ app.name | escape }} was released as <strong>Speed Math</strong>; these terms stay published so links from that period keep working. See the <a href="{{ '/' | append: app.slug | append: '/' | relative_url }}">current documents</a>.</p>
+      {%- endif %}
+    </div>
+  </section>
+
+  <div class="wrap wrap-narrow">
+    <article class="prose">
+      {{ content }}
+    </article>
+  </div>
+</div>

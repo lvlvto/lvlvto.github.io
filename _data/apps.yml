@@ -1,0 +1,79 @@
+# One entry per published app. The home page, each app's page and the header
+# of every legal document are generated from this list.
+#
+# slug     folder the app's documents live in, and the app page URL (/slug/)
+# aliases  older folders whose documents belong to this app
+# kind     privacy | terms | support — picks the icon and blurb on the app page
+
+- slug: fortune-cookie
+  name: Fortune Cookie
+  tagline: A new fortune every day, cracked from a cookie.
+  icon: /assets/icons/fortune-cookie.png
+  accent: "#E6A24C"
+  docs:
+    - title: Privacy Policy
+      kind: privacy
+      url: /fortune-cookie/privacy-policy
+
+- slug: measure-height
+  name: Measure Height
+  tagline: Estimate a height from how long your phone takes to fall.
+  icon: /assets/icons/measure-height.png
+  accent: "#FF6B35"
+  docs:
+    - title: Privacy Policy
+      kind: privacy
+      url: /measure-height/privacy-policy
+
+- slug: progress-tracker
+  name: Progress Tracker & Goals
+  tagline: Track your goals and progress with a calendar and home-screen widget.
+  icon: /assets/icons/progress-tracker.png
+  accent: "#3EA7E6"
+  docs:
+    - title: Privacy Policy
+      kind: privacy
+      url: /progress-tracker/privacy-policy
+    - title: Terms and Conditions
+      kind: terms
+      url: /progress-tracker/terms-and-conditions
+
+- slug: quick-math-solver
+  name: Quick Math Solver
+  tagline: True or false math against the clock.
+  icon: /assets/icons/quick-math-solver.png
+  accent: "#4ECDC4"
+  aliases: [speed-math]
+  docs:
+    - title: Privacy Policy
+      kind: privacy
+      url: /quick-math-solver/privacy-policy
+    - title: Terms and Conditions
+      kind: terms
+      url: /quick-math-solver/terms-and-conditions
+  legacy:
+    title: Terms and Conditions (Speed Math)
+    url: /speed-math/terms-and-conditions
+
+- slug: quick-geo
+  name: QuickGeo
+  tagline: Geography quiz — flags, capitals and US states.
+  icon: /assets/icons/quick-geo.png
+  accent: "#F4A340"
+  docs:
+    - title: Support
+      kind: support
+      url: /quick-geo/support
+    - title: Privacy Policy
+      kind: privacy
+      url: /quick-geo/privacy-policy
+
+- slug: reflexo
+  name: Reflexo
+  tagline: Reaction time and reflex training with progress stats.
+  icon: /assets/icons/reflexo.png
+  accent: "#FF7A45"
+  docs:
+    - title: Privacy Policy
+      kind: privacy
+      url: /reflexo/privacy-policy
