@@ -113,5 +113,5 @@ immediately upon posting the updated policy.
 ## Contact
 
 If you have any questions about this Privacy Policy, please contact the Developer by
-email at kurmerch@gmail.com or using the contact information provided in the Google
+email at kursoftware@gmail.com or using the contact information provided in the Google
 Play store or App Store listing.
