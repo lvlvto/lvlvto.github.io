@@ -1,0 +1,11 @@
+<svg class="logo-mark" viewBox="0 0 64 64" width="{{ include.size | default: 36 }}" height="{{ include.size | default: 36 }}" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="ks-{{ include.id }}" gradientUnits="userSpaceOnUse" x1="16" y1="14" x2="50" y2="50">
+      <stop offset="0" stop-color="#FF8A4C"/>
+      <stop offset="1" stop-color="#3CC8BC"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#15171E"/>
+  <path d="M20 17v30M41 17L26.5 32 41 47" fill="none" stroke="url(#ks-{{ include.id }})" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="47.5" cy="32" r="4" fill="#3CC8BC"/>
+</svg>
