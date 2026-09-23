@@ -77,3 +77,6 @@
     - title: Privacy Policy
       kind: privacy
       url: /reflexo/privacy-policy
+    - title: Terms and Conditions
+      kind: terms
+      url: /reflexo/terms-and-conditions
