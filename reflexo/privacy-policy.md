@@ -4,69 +4,70 @@ title: "Reflexo — Privacy Policy"
 permalink: /reflexo/privacy-policy
 ---
 
-**Last updated: May 17, 2026**
+**Last updated: September 23, 2026**
 
 ## Introduction
 
-This Privacy Policy explains how the developer ("Developer", "we", "us") collects, uses, and protects information when you use this mobile application (the "App").
+Reflexo ("the App") is a reaction-time and reflex-training game for Android and iOS, published by the developer ("Developer", "we", "us"). This policy explains what information the App handles, why, and the choices you have.
 
-By using the App, you agree to the collection and use of information in accordance with this Privacy Policy.
+The App has no accounts and never asks for your name, email address, phone number or any other personal details.
 
-## Information We Collect
+## Information stored on your device
 
-The App does not collect personally identifiable information such as your name, email address, phone number, or precise location.
+Your results stay on your device and are never sent to us or to any server we operate:
 
-The App uses Firebase, a service provided by Google, to collect anonymous analytics and diagnostic data.
+- reaction times, run counts, best and average scores and their dates,
+- the tap-by-tap timings of your most recent grid runs, used for detailed statistics,
+- the time you last unlocked detailed statistics, and which mode the daily pick offered.
 
-This data may include:
+To delete all of it, uninstall the App or clear its data in system settings.
 
-app usage statistics,
+## Advertising
 
-device information (e.g. device model, operating system version),
+The App is free and shows ads provided by Google AdMob: banners on the home and statistics screens, occasional full-screen ads between runs, and an optional rewarded ad you can choose to watch to unlock detailed statistics for 24 hours. Ads never appear while a reaction is being measured.
 
-anonymized identifiers,
+To serve and measure ads and to prevent fraud, Google may collect and process:
 
-crash reports and performance data,
+- your device's advertising ID (Android Advertising ID or Apple IDFA),
+- IP address and the approximate location derived from it,
+- device and app information, such as model, operating system and language,
+- ad interactions, such as impressions and taps.
 
-interaction data (e.g. which features are used).
+Google processes this data as described in [How Google uses information from sites or apps that use its services](https://policies.google.com/technologies/partner-sites) and the [Google Privacy Policy](https://policies.google.com/privacy).
 
-## How We Use the Information
+## Usage and crash data
 
-Collected data is used solely to:
+The App uses Google Firebase Analytics and Firebase Crashlytics to understand how it is used and to find crashes. These record:
 
-analyze app performance,
+- which mode you start,
+- how a run ended — the mode, the time and whether it was a personal best,
+- whether you played the daily pick,
+- whether you chose to watch a rewarded ad for detailed statistics,
+- technical details of any crash, such as the error, the device model and the app version.
 
-identify and fix bugs and crashes,
+These events describe how the App is used, not who you are. They carry no name, email address or contact details, and they never include the individual tap timings kept on your device for your detailed statistics. Google processes them as described in the [Firebase privacy documentation](https://firebase.google.com/support/privacy).
 
-improve functionality and user experience,
+## Your consent and choices
 
-monitor overall app usage trends.
+- If you are in the European Economic Area, the United Kingdom or Switzerland, the App asks for your consent through Google's consent form before personalised ads are shown. You can review or change that choice at any time with "Privacy settings" at the bottom of the home screen.
+- On iOS, the App asks for permission to track before it can use the advertising identifier. Declining does not limit any feature of the game.
+- You can reset or delete your advertising ID, or opt out of personalised ads, in your device settings (Android: Settings › Google › Ads; iOS: Settings › Privacy & Security › Tracking).
 
-We do not use this data for advertising, marketing, or user profiling.
+## Permissions
 
-## Data Sharing
+The App uses internet access to load ads and the advertising ID permission described above. It does not access your camera, microphone, contacts, photos or precise location.
 
-We do not sell, trade, or rent user data to third parties.
+## Data sharing and security
 
-Data collected via Firebase is processed by Google in accordance with their privacy and security standards and may be stored on servers located outside your country of residence.
+We do not sell, trade or rent user data. Data collected by Google through the services above is processed by Google and may be stored on servers outside your country of residence. We take reasonable measures to protect data, but no method of electronic transmission or storage is completely secure.
 
-## Third-Party Services
+## Children's privacy
 
-The App relies on third-party services that may collect information used to identify you.
+The App is not directed at children under 13 and we do not knowingly collect personal information from them.
 
-Firebase is operated by Google LLC and is subject to Google's Privacy Policy. We recommend reviewing Google's privacy practices to understand how data is handled.
+## Changes to this policy
 
-## Data Security
-
-We take reasonable measures to protect collected data. However, no method of electronic transmission or storage is 100% secure, and absolute security cannot be guaranteed.
-
-## Children's Privacy
-
-We do not knowingly collect personal data from children.
-
-## Changes to This Privacy Policy
-
-We may update this Privacy Policy from time to time. Changes will be effective immediately upon posting the updated policy.
+We may update this policy from time to time. The updated version will be published at this address with a new date above.
 
 ## Contact
 
