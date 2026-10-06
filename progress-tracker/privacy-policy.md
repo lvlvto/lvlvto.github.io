@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Progress Tracker & Goals — Privacy Policy"
+title: "Progo — Privacy Policy"
 permalink: /progress-tracker/privacy-policy
 ---
 
