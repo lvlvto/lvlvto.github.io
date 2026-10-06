@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "Progress Tracker & Goals — Terms and Conditions"
+title: "Progo — Terms and Conditions"
 permalink: /progress-tracker/terms-and-conditions
 ---
 
-**Last updated: May 31, 2026**
+**Last updated: October 6, 2026**
 
 ## Introduction
 
-These Terms and Conditions govern your use of the Progress Tracker & Goals mobile application (the "App") provided by the developer ("Developer", "we", "us"). By downloading or using the App, you agree to these Terms.
+These Terms and Conditions govern your use of the Progo mobile application (formerly Progress Tracker & Goals) (the "App") provided by the developer ("Developer", "we", "us"). By downloading or using the App, you agree to these Terms.
 
 ## Use of the App
 

@@ -1,6 +1,6 @@
 ---
 layout: app
 app: progress-tracker
-title: "Progress Tracker & Goals"
+title: "Progo"
 permalink: /progress-tracker/
 ---

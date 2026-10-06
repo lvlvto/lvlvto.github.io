@@ -26,7 +26,7 @@
       url: /measure-height/privacy-policy
 
 - slug: progress-tracker
-  name: Progress Tracker & Goals
+  name: Progo
   tagline: Track your goals and progress with a calendar and home-screen widget.
   icon: /assets/icons/progress-tracker.png
   accent: "#3EA7E6"
@@ -37,6 +37,9 @@
     - title: Terms and Conditions
       kind: terms
       url: /progress-tracker/terms-and-conditions
+    - title: Support
+      kind: support
+      url: /progress-tracker/support
 
 - slug: quick-math-solver
   name: Quick Math Solver
