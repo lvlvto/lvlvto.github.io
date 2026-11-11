@@ -83,3 +83,19 @@
     - title: Terms and Conditions
       kind: terms
       url: /reflexo/terms-and-conditions
+
+- slug: clueboard
+  name: Clueboard
+  tagline: Murder-mystery logic puzzles. Place the suspects and find the killer.
+  icon: /assets/icons/clueboard.png
+  accent: "#C9A227"
+  docs:
+    - title: Privacy Policy
+      kind: privacy
+      url: /clueboard/privacy-policy
+    - title: Terms and Conditions
+      kind: terms
+      url: /clueboard/terms-and-conditions
+    - title: Support
+      kind: support
+      url: /clueboard/support
