@@ -7,10 +7,9 @@
 #
 # Store facts shown as tags on the home page and the app page:
 # status     live | soon | retired
-# platforms  ios, android — the stores the app is (or will be) in
+# platforms  ios, android — the stores a live app is in
 # price      free | paid
 # price_note short extra next to the price, e.g. a free trial
-# premium    true when a free app sells an optional upgrade
 
 - slug: fortune-cookie
   name: Fortune Cookie
@@ -20,7 +19,6 @@
   status: live
   platforms: [ios, android]
   price: free
-  premium: true
   docs:
     - title: Privacy Policy
       kind: privacy
@@ -55,7 +53,6 @@
   status: live
   platforms: [ios, android]
   price: free
-  premium: true
   docs:
     - title: Privacy Policy
       kind: privacy
@@ -107,7 +104,6 @@
   status: soon
   platforms: [ios, android]
   price: free
-  premium: true
   docs:
     - title: Privacy Policy
       kind: privacy

@@ -361,11 +361,6 @@ img {
   background: color-mix(in srgb, #d98a1c 20%, var(--surface));
 }
 
-.tag-premium {
-  border-color: color-mix(in srgb, var(--accent) 55%, var(--border));
-  background: color-mix(in srgb, var(--accent) 14%, var(--surface));
-}
-
 .tag-status {
   border-style: dashed;
   background: transparent;
