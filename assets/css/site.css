@@ -297,11 +297,10 @@ img {
 /* Store logos: bare glyphs in the card's top corner */
 .stores {
   display: flex;
-  gap: 9px;
+  gap: 7px;
   margin: 0;
   padding: 0;
   list-style: none;
-  color: var(--muted);
 }
 
 .stores li {
@@ -309,9 +308,8 @@ img {
 }
 
 .stores svg {
-  width: 15px;
-  height: 15px;
-  fill: currentColor;
+  width: 16px;
+  height: 16px;
 }
 
 .app-card .stores {
