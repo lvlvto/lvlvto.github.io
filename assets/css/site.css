@@ -294,6 +294,18 @@ img {
   white-space: nowrap;
 }
 
+.tag-platform {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tag-ico {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+}
+
 .tag-free {
   border-color: transparent;
   background: color-mix(in srgb, #2e9e5b 16%, var(--surface));
