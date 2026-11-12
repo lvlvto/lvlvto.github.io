@@ -99,3 +99,19 @@
     - title: Support
       kind: support
       url: /clueboard/support
+
+- slug: clueboard-treasure
+  name: Clueboard Treasure
+  tagline: Treasure-hunt logic puzzles. Read the map scraps and dig up the treasure.
+  icon: /assets/icons/clueboard-treasure.png
+  accent: "#2BB5B5"
+  docs:
+    - title: Privacy Policy
+      kind: privacy
+      url: /clueboard-treasure/privacy-policy
+    - title: Terms and Conditions
+      kind: terms
+      url: /clueboard-treasure/terms-and-conditions
+    - title: Support
+      kind: support
+      url: /clueboard-treasure/support
