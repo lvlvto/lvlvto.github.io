@@ -294,16 +294,42 @@ img {
   white-space: nowrap;
 }
 
-.tag-platform {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
+/* Store logos: bare glyphs in the card's top corner */
+.stores {
+  display: flex;
+  gap: 9px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--muted);
 }
 
-.tag-ico {
-  width: 14px;
-  height: 14px;
+.stores li {
+  display: flex;
+}
+
+.stores svg {
+  width: 15px;
+  height: 15px;
   fill: currentColor;
+}
+
+.app-card .stores {
+  position: absolute;
+  top: 24px;
+  right: 20px;
+}
+
+.app-card h3 {
+  padding-right: 52px;
+}
+
+.app-facts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  margin-top: 14px;
 }
 
 .tag-free {
@@ -325,10 +351,6 @@ img {
   border-style: dashed;
   background: transparent;
   color: var(--muted);
-}
-
-.app-head .tags {
-  margin-top: 14px;
 }
 
 .app-card.is-retired {
