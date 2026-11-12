@@ -297,7 +297,7 @@ img {
 /* Store logos: bare glyphs in the card's top corner */
 .stores {
   display: flex;
-  gap: 7px;
+  gap: 9px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -308,18 +308,38 @@ img {
 }
 
 .stores svg {
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
 }
 
-.app-card .stores {
-  position: absolute;
-  top: 24px;
-  right: 20px;
+.app-card-side {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
 }
 
-.app-card h3 {
-  padding-right: 52px;
+.app-card-body {
+  flex: 1;
+}
+
+.app-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.app-card-top .tag {
+  flex: none;
+  margin-top: 3px;
+  padding: 2px 9px;
+  font-size: 0.75rem;
+}
+
+.tags:empty {
+  display: none;
 }
 
 .app-facts {
