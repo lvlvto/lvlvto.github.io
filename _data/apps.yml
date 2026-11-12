@@ -4,12 +4,23 @@
 # slug     folder the app's documents live in, and the app page URL (/slug/)
 # aliases  older folders whose documents belong to this app
 # kind     privacy | terms | support — picks the icon and blurb on the app page
+#
+# Store facts shown as tags on the home page and the app page:
+# status     live | soon | retired
+# platforms  ios, android — the stores the app is (or will be) in
+# price      free | paid | subscription
+# price_note short extra next to the price, e.g. a free trial
+# premium    true when a free app sells an optional upgrade
 
 - slug: fortune-cookie
   name: Fortune Cookie
   tagline: A new fortune every day, cracked from a cookie.
   icon: /assets/icons/fortune-cookie.png
   accent: "#E6A24C"
+  status: live
+  platforms: [ios, android]
+  price: free
+  premium: true
   docs:
     - title: Privacy Policy
       kind: privacy
@@ -20,6 +31,7 @@
   tagline: Estimate a height from how long your phone takes to fall.
   icon: /assets/icons/measure-height.png
   accent: "#FF6B35"
+  status: retired
   docs:
     - title: Privacy Policy
       kind: privacy
@@ -30,6 +42,10 @@
   tagline: Track your goals and progress with a calendar and home-screen widget.
   icon: /assets/icons/progress-tracker.png
   accent: "#3EA7E6"
+  status: live
+  platforms: [android]
+  price: subscription
+  price_note: 21-day free trial
   docs:
     - title: Privacy Policy
       kind: privacy
@@ -47,6 +63,10 @@
   icon: /assets/icons/quick-math-solver.png
   accent: "#4ECDC4"
   aliases: [speed-math]
+  status: live
+  platforms: [ios, android]
+  price: free
+  premium: true
   docs:
     - title: Privacy Policy
       kind: privacy
@@ -63,6 +83,9 @@
   tagline: Geography quiz — flags, capitals and US states.
   icon: /assets/icons/quick-geo.png
   accent: "#F4A340"
+  status: live
+  platforms: [ios]
+  price: paid
   docs:
     - title: Support
       kind: support
@@ -76,6 +99,9 @@
   tagline: Reaction time and reflex training with progress stats.
   icon: /assets/icons/reflexo.png
   accent: "#FF7A45"
+  status: live
+  platforms: [ios, android]
+  price: free
   docs:
     - title: Privacy Policy
       kind: privacy
@@ -89,6 +115,10 @@
   tagline: Murder-mystery logic puzzles. Place the suspects and find the killer.
   icon: /assets/icons/clueboard.png
   accent: "#C9A227"
+  status: soon
+  platforms: [ios, android]
+  price: free
+  premium: true
   docs:
     - title: Privacy Policy
       kind: privacy
@@ -105,6 +135,9 @@
   tagline: Treasure-hunt logic puzzles. Read the map scraps and dig up the treasure.
   icon: /assets/icons/clueboard-treasure.png
   accent: "#2BB5B5"
+  status: soon
+  platforms: [ios, android]
+  price: free
   docs:
     - title: Privacy Policy
       kind: privacy
