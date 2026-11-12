@@ -84,7 +84,7 @@
   icon: /assets/icons/quick-geo.png
   accent: "#F4A340"
   status: live
-  platforms: [ios]
+  platforms: [ios, android]
   price: paid
   docs:
     - title: Support
