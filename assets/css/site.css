@@ -273,7 +273,8 @@ img {
   color: var(--muted);
 }
 
-.chips {
+/* Store facts: where the app is, what it costs */
+.tags {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
@@ -282,24 +283,56 @@ img {
   list-style: none;
 }
 
-.chip {
-  position: relative;
-  z-index: 1;
-  display: inline-block;
-  padding: 5px 11px;
+.tag {
+  padding: 4px 10px;
   border: 1px solid var(--border);
   border-radius: 999px;
   background: var(--surface-2);
   color: var(--text);
   font-size: 0.8125rem;
   font-weight: 600;
-  text-decoration: none;
-  transition: border-color 0.15s ease, background 0.15s ease;
+  white-space: nowrap;
 }
 
-.chip:hover {
-  border-color: var(--accent);
-  background: color-mix(in srgb, var(--accent) 14%, var(--surface-2));
+.tag-free {
+  border-color: transparent;
+  background: color-mix(in srgb, #2e9e5b 16%, var(--surface));
+}
+
+.tag-paid {
+  border-color: transparent;
+  background: color-mix(in srgb, #d98a1c 20%, var(--surface));
+}
+
+.tag-premium {
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--border));
+  background: color-mix(in srgb, var(--accent) 14%, var(--surface));
+}
+
+.tag-status {
+  border-style: dashed;
+  background: transparent;
+  color: var(--muted);
+}
+
+.app-head .tags {
+  margin-top: 14px;
+}
+
+.app-card.is-retired {
+  box-shadow: none;
+  background: transparent;
+}
+
+.app-card.is-retired .app-icon {
+  filter: grayscale(1);
+  opacity: 0.55;
+  box-shadow: 0 0 0 1px var(--ring);
+}
+
+.app-card.is-retired h3 a,
+.app-card.is-retired p {
+  color: var(--muted);
 }
 
 .note {

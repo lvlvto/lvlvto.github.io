@@ -1,0 +1,24 @@
+{%- assign a = include.app -%}
+<ul class="tags">
+  {%- if a.status == "retired" %}
+  <li class="tag tag-status">No longer available</li>
+  {%- else %}
+  {%- if a.status == "soon" %}
+  <li class="tag tag-status">Coming soon</li>
+  {%- endif %}
+  {%- for platform in a.platforms %}
+  <li class="tag">{% if platform == "ios" %}iOS{% else %}Android{% endif %}</li>
+  {%- endfor %}
+  {%- case a.price %}
+  {%- when "free" %}
+  <li class="tag tag-free">Free</li>
+  {%- when "paid" %}
+  <li class="tag tag-paid">Paid</li>
+  {%- when "subscription" %}
+  <li class="tag tag-paid">Subscription{% if a.price_note %} · {{ a.price_note }}{% endif %}</li>
+  {%- endcase %}
+  {%- if a.premium %}
+  <li class="tag tag-premium">Premium option</li>
+  {%- endif %}
+  {%- endif %}
+</ul>
