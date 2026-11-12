@@ -8,7 +8,7 @@
 # Store facts shown as tags on the home page and the app page:
 # status     live | soon | retired
 # platforms  ios, android — the stores the app is (or will be) in
-# price      free | paid | subscription
+# price      free | paid
 # price_note short extra next to the price, e.g. a free trial
 # premium    true when a free app sells an optional upgrade
 
@@ -26,17 +26,6 @@
       kind: privacy
       url: /fortune-cookie/privacy-policy
 
-- slug: measure-height
-  name: Measure Height
-  tagline: Estimate a height from how long your phone takes to fall.
-  icon: /assets/icons/measure-height.png
-  accent: "#FF6B35"
-  status: retired
-  docs:
-    - title: Privacy Policy
-      kind: privacy
-      url: /measure-height/privacy-policy
-
 - slug: progress-tracker
   name: Progo
   tagline: Track your goals and progress with a calendar and home-screen widget.
@@ -44,7 +33,7 @@
   accent: "#3EA7E6"
   status: live
   platforms: [android]
-  price: subscription
+  price: paid
   price_note: 21-day free trial
   docs:
     - title: Privacy Policy
@@ -148,3 +137,14 @@
     - title: Support
       kind: support
       url: /clueboard-treasure/support
+
+- slug: measure-height
+  name: Measure Height
+  tagline: Estimate a height from how long your phone takes to fall.
+  icon: /assets/icons/measure-height.png
+  accent: "#FF6B35"
+  status: retired
+  docs:
+    - title: Privacy Policy
+      kind: privacy
+      url: /measure-height/privacy-policy
