@@ -29,7 +29,7 @@ layout: default
             {% include app-price.html app=app %}
           </div>
           <p>{{ app.tagline }}</p>
-          {%- if app.status != "live" or app.price_note %}
+          {%- if app.status != "live" %}
           {% include app-tags.html app=app %}
           {%- endif %}
         </div>
