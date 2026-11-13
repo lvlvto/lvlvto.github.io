@@ -4,3 +4,8 @@ url: "https://lvlvto.github.io"
 markdown: kramdown
 plugins:
   - jekyll-seo-tag
+
+# Campaign tags added to every store link, so installs that start on this site
+# show up as their own source in App Store Connect and Play Console.
+store_campaign: lvlatopage
+app_store_provider: 128620010
