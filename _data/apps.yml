@@ -28,7 +28,6 @@
   stores:
     android: com.lalato.progresstracker
   price: paid
-  price_note: 21-day free trial
   about: "Progo keeps your goals, habits and projects in one place and shows how far along you are."
   features:
     - "Set goals with a target value and log progress as you go"
