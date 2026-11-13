@@ -18,6 +18,46 @@ layout: default
     </div>
   </section>
 
+  {%- if app.shots %}
+  <section class="wrap wrap-narrow app-section">
+    <h2 class="section-label">Screenshots</h2>
+    <ul class="shots" tabindex="0" aria-label="{{ app.name | escape }} screenshots">
+      {%- for shot in app.shots %}
+      <li><img src="{{ shot.src | relative_url }}" alt="{{ shot.alt | escape }}" width="540" height="960" loading="lazy"></li>
+      {%- endfor %}
+    </ul>
+  </section>
+  {%- endif %}
+
+  {%- if app.features %}
+  <section class="wrap wrap-narrow app-section">
+    <h2 class="section-label">What you can do</h2>
+    <div class="about">
+      {%- if app.about %}
+      <p>{{ app.about }}</p>
+      {%- endif %}
+      <ul class="feature-list">
+        {%- for feature in app.features %}
+        <li>{{ feature }}</li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </section>
+  {%- endif %}
+
+  {%- if app.status == "live" and app.stores %}
+  <section class="wrap wrap-narrow app-section">
+    <div class="get">
+      <img class="app-icon" src="{{ app.icon | relative_url }}" alt="" width="56" height="56">
+      <div class="get-text">
+        <h2>Get {{ app.name | escape }}</h2>
+        <p>Tap your store to download.</p>
+      </div>
+      {% include app-stores.html app=app %}
+    </div>
+  </section>
+  {%- endif %}
+
   <section class="wrap wrap-narrow app-docs">
     <h2 class="section-label">Documents</h2>
     <ul class="doc-list">

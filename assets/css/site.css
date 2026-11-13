@@ -218,6 +218,7 @@ img {
 .app-card {
   position: relative;
   display: flex;
+  flex-direction: column;
   gap: 16px;
   padding: 20px;
   background: var(--surface);
@@ -243,8 +244,18 @@ img {
   box-shadow: 0 0 0 1px var(--ring), 0 8px 20px -8px color-mix(in srgb, var(--accent) 70%, transparent);
 }
 
+.app-card-main {
+  flex: 1;
+  display: flex;
+  gap: 16px;
+}
+
 .app-card-body {
   min-width: 0;
+}
+
+.app-card-body > :last-child {
+  margin-bottom: 0;
 }
 
 .app-card h3 {
@@ -295,9 +306,10 @@ img {
 }
 
 /* Download buttons: one per store the app is in */
+/* Two equal columns, so every button is the same width on every card */
 .stores {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 8px;
   margin: 0;
   padding: 0;
@@ -312,11 +324,13 @@ img {
 .store-btn {
   position: relative;
   z-index: 1;
+  flex: 1;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
-  min-height: 40px;
-  padding: 8px 14px;
+  min-height: 42px;
+  padding: 8px 10px;
   border-radius: 12px;
   background: var(--text);
   color: var(--bg);
@@ -339,11 +353,8 @@ img {
   height: 18px;
 }
 
-.app-card .tags + .stores {
-  margin-top: 12px;
-}
-
 .app-head .stores {
+  max-width: 360px;
   margin-top: 18px;
 }
 
@@ -515,6 +526,137 @@ img {
   margin: 0;
   font-size: 1.1rem;
   color: var(--muted);
+}
+
+.app-head > div {
+  flex: 1;
+  min-width: 0;
+}
+
+.app-section {
+  padding-bottom: 40px;
+}
+
+/* Screenshot strip: swipe sideways, snaps to each shot */
+.shots {
+  display: flex;
+  gap: 14px;
+  margin: 0 -20px;
+  padding: 4px 20px 14px;
+  list-style: none;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 20px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.shots li {
+  flex: none;
+  width: min(62vw, 230px);
+  scroll-snap-align: start;
+}
+
+.shots img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+}
+
+.about {
+  padding: 22px 24px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+}
+
+.about p {
+  margin: 0 0 14px;
+  font-size: 1.05rem;
+}
+
+.feature-list {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.feature-list li {
+  position: relative;
+  padding-left: 30px;
+  line-height: 1.45;
+}
+
+.feature-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--accent) 22%, var(--surface-2));
+}
+
+.feature-list li::after {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: calc(0.15em + 4px);
+  width: 6px;
+  height: 10px;
+  border: solid var(--text);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/* Closing call to action: the same store buttons again, after the pitch */
+.get {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 24px;
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, var(--border));
+  border-radius: 18px;
+  background: color-mix(in srgb, var(--accent) 10%, var(--surface));
+}
+
+.get .app-icon {
+  width: 56px;
+  height: 56px;
+}
+
+.get-text {
+  flex: 1;
+  min-width: 150px;
+}
+
+.get h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  letter-spacing: -0.015em;
+}
+
+.get p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.get .stores {
+  flex: 1 1 280px;
+  max-width: 360px;
+}
+
+.get .store-btn {
+  min-height: 48px;
+  font-size: 1rem;
 }
 
 .app-docs {

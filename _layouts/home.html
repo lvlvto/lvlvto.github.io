@@ -19,20 +19,22 @@ layout: default
   <ul class="app-grid">
     {%- for app in site.data.apps %}
     <li class="app-card{% if app.status == 'retired' %} is-retired{% endif %}" style="--accent: {{ app.accent }}">
-      <div class="app-card-side">
-        <img class="app-icon" src="{{ app.icon | relative_url }}" alt="" width="72" height="72">
-      </div>
-      <div class="app-card-body">
-        <div class="app-card-top">
-          <h3><a class="stretched" href="{{ '/' | append: app.slug | append: '/' | relative_url }}">{{ app.name | escape }}</a></h3>
-          {% include app-price.html app=app %}
+      <div class="app-card-main">
+        <div class="app-card-side">
+          <img class="app-icon" src="{{ app.icon | relative_url }}" alt="" width="72" height="72">
         </div>
-        <p>{{ app.tagline }}</p>
-        {%- if app.status != "live" or app.price_note %}
-        {% include app-tags.html app=app %}
-        {%- endif %}
-        {% include app-stores.html app=app %}
+        <div class="app-card-body">
+          <div class="app-card-top">
+            <h3><a class="stretched" href="{{ '/' | append: app.slug | append: '/' | relative_url }}">{{ app.name | escape }}</a></h3>
+            {% include app-price.html app=app %}
+          </div>
+          <p>{{ app.tagline }}</p>
+          {%- if app.status != "live" or app.price_note %}
+          {% include app-tags.html app=app %}
+          {%- endif %}
+        </div>
       </div>
+      {% include app-stores.html app=app %}
     </li>
     {%- endfor %}
   </ul>
