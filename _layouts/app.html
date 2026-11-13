@@ -11,7 +11,8 @@ layout: default
         <div>
           <h1>{{ app.name | escape }}</h1>
           <p>{{ app.tagline }}</p>
-          <div class="app-facts">{% include app-stores.html app=app %}{% include app-price.html app=app %}{% include app-tags.html app=app %}</div>
+          <div class="app-facts">{% include app-price.html app=app %}{% include app-tags.html app=app %}</div>
+          {% include app-stores.html app=app %}
         </div>
       </div>
     </div>
