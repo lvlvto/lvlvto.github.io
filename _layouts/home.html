@@ -21,7 +21,6 @@ layout: default
     <li class="app-card{% if app.status == 'retired' %} is-retired{% endif %}" style="--accent: {{ app.accent }}">
       <div class="app-card-side">
         <img class="app-icon" src="{{ app.icon | relative_url }}" alt="" width="72" height="72">
-        {% include app-stores.html app=app %}
       </div>
       <div class="app-card-body">
         <div class="app-card-top">
@@ -29,7 +28,10 @@ layout: default
           {% include app-price.html app=app %}
         </div>
         <p>{{ app.tagline }}</p>
+        {%- if app.status != "live" or app.price_note %}
         {% include app-tags.html app=app %}
+        {%- endif %}
+        {% include app-stores.html app=app %}
       </div>
     </li>
     {%- endfor %}
