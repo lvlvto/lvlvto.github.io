@@ -22,8 +22,8 @@ layout: default
     <div class="get">
       <img class="app-icon" src="{{ app.icon | relative_url }}" alt="" width="56" height="56">
       <div class="get-text">
-        <h2>Get {{ app.name | escape }}</h2>
-        <p>Tap your store to download.</p>
+        <h2>{{ app.name | escape }} is on {% if app.stores.ios and app.stores.android %}the App Store and Google Play{% elsif app.stores.ios %}the App Store{% else %}Google Play{% endif %}</h2>
+        <p>{% if app.stores.ios and app.stores.android %}The buttons open its official store page{% else %}The button opens its official store page{% endif %}. You install it from there, nothing downloads from this site.</p>
       </div>
       {% include app-stores.html app=app %}
     </div>

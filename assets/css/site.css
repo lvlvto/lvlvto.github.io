@@ -634,7 +634,9 @@ img {
 }
 
 .get p {
-  margin: 0;
+  margin: 4px 0 0;
+  font-size: 0.95rem;
+  line-height: 1.45;
   color: var(--muted);
 }
 
