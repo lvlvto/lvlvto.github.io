@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "Clueboard — Terms and Conditions"
+title: "Clueboard Noir — Terms and Conditions"
 permalink: /clueboard/terms-and-conditions
 ---
 
-**Last updated: November 11, 2026**
+**Last updated: November 13, 2026**
 
 ## Introduction
 
-These Terms and Conditions govern your use of the Clueboard mobile application (the
+These Terms and Conditions govern your use of the Clueboard Noir mobile application (the
 "App") provided by the developer ("Developer", "we", "us"). By downloading or using the
 App, you agree to these Terms.
 
@@ -33,7 +33,7 @@ on the advertising network and is not guaranteed.
 
 ## In-App Purchases
 
-The App offers one optional, one-time purchase, **Clueboard Pro**, which removes all
+The App offers one optional, one-time purchase, **Clueboard Noir Pro**, which removes all
 advertising and gives unlimited hints.
 
 - Payment is processed by Google Play or the Apple App Store; we never receive your

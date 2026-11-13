@@ -1,15 +1,15 @@
 ---
 layout: page
-title: "Clueboard — Privacy Policy"
+title: "Clueboard Noir — Privacy Policy"
 permalink: /clueboard/privacy-policy
 ---
 
-**Last updated: November 11, 2026**
+**Last updated: November 13, 2026**
 
 ## Introduction
 
 This Privacy Policy explains how the developer ("Developer", "we", "us") collects,
-uses, and protects information when you use the Clueboard mobile application
+uses, and protects information when you use the Clueboard Noir mobile application
 (the "App").
 
 By using the App, you agree to the collection and use of information in accordance
@@ -29,7 +29,7 @@ device and how you use the App:
 - **Google AdMob** — serves the advertisements shown inside the App.
 - **Google Firebase Analytics** — anonymous usage data, such as which cases are
   started and solved, how long they take and how many hints are used.
-- **Google Play Billing / Apple App Store** — process the one-time Clueboard Pro
+- **Google Play Billing / Apple App Store** — process the one-time Clueboard Noir Pro
   purchase.
 
 The data collected through these services may include:
@@ -48,7 +48,7 @@ Collected data is used to:
 - display and measure advertisements,
 - understand which cases are too hard or too easy and improve the puzzles,
 - analyze app performance and fix problems,
-- unlock and restore the Clueboard Pro purchase.
+- unlock and restore the Clueboard Noir Pro purchase.
 
 ## Advertising
 
@@ -67,7 +67,7 @@ video you can choose to watch for an extra hint.
   **non-personalized ads** instead.
 - You can opt out of personalized advertising system-wide: on Android via
   **Settings → Google → Ads**, on iOS via the Tracking setting above.
-- Purchasing Clueboard Pro disables all advertising in the App.
+- Purchasing Clueboard Noir Pro disables all advertising in the App.
 
 How Google uses data from apps that use its services is described at
 <https://policies.google.com/technologies/partner-sites>.

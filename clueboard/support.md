@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Clueboard — Support"
+title: "Clueboard Noir — Support"
 permalink: /clueboard/support
 ---
 
-**Clueboard** — murder-mystery logic puzzles. Place the suspects, find the killer.
+**Clueboard Noir** — murder-mystery logic puzzles. Place the suspects, find the killer.
 
 Found a case that seems impossible, or a statement you think is wrong? Email
 **kursoftware@gmail.com** with the case number (or "daily case" and the date), your
@@ -33,12 +33,12 @@ the statement turns back to normal.
 ### How do hints work?
 
 A hint places one person in their correct square and pins them there. You start with
-three. When they run out, you can watch a short video for one more. Clueboard Pro gives
+three. When they run out, you can watch a short video for one more. Clueboard Noir Pro gives
 unlimited hints.
 
 ### How do I remove the ads?
 
-Buy **Clueboard Pro** from the ⋮ menu on the home screen → Remove ads. It is a one-time
+Buy **Clueboard Noir Pro** from the ⋮ menu on the home screen → Remove ads. It is a one-time
 purchase that removes every ad and unlocks unlimited hints.
 
 ### I reinstalled the app and Pro is gone.

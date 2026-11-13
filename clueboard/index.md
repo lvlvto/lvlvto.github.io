@@ -1,6 +1,6 @@
 ---
 layout: app
 app: clueboard
-title: "Clueboard"
+title: "Clueboard Noir"
 permalink: /clueboard/
 ---
