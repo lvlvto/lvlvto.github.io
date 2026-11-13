@@ -12,6 +12,9 @@
 # price_note short extra next to the price, e.g. a free trial
 # stores     App Store numeric id and Google Play package of a live app; each
 #            one present becomes a download button
+# about      one sentence on what the app is, shown on the app page
+# features   short list of what you can do in the app
+# shots      screenshots for the app page gallery (540x960 WebP) with alt text
 #
 # Apps are listed on the home page in the order they appear here.
 
@@ -26,6 +29,24 @@
     android: com.lalato.progresstracker
   price: paid
   price_note: 21-day free trial
+  about: "Progo keeps your goals, habits and projects in one place and shows how far along you are."
+  features:
+    - "Set goals with a target value and log progress as you go"
+    - "Plan one-off and recurring activities in the calendar"
+    - "Break projects into subtasks and watch the percentage grow"
+    - "Keep today's progress on a home-screen widget"
+    - "Works offline with no account — your data stays on your phone"
+  shots:
+    - src: /assets/shots/progress-tracker/01.webp
+      alt: "Track every goal you set"
+    - src: /assets/shots/progress-tracker/02.webp
+      alt: "Plan ahead in the calendar"
+    - src: /assets/shots/progress-tracker/03.webp
+      alt: "Progress on your home screen"
+    - src: /assets/shots/progress-tracker/04.webp
+      alt: "Your goals stay on your phone"
+    - src: /assets/shots/progress-tracker/05.webp
+      alt: "See how far you've come"
   docs:
     - title: Privacy Policy
       kind: privacy
@@ -48,6 +69,24 @@
     ios: 6802820374
     android: com.lvlvto.quickgeo
   price: paid
+  about: "QuickGeo is a fast geography quiz covering 196 countries and all 50 US states."
+  features:
+    - "Name flags and capitals before the clock runs out"
+    - "Play the whole world or pick a single region"
+    - "Learn new places with flashcards"
+    - "Answer one fresh question every day"
+    - "Drill your weak spots and watch your accuracy grow"
+  shots:
+    - src: /assets/shots/quick-geo/01.webp
+      alt: "196 countries plus 50 US states"
+    - src: /assets/shots/quick-geo/02.webp
+      alt: "Spot the flag, beat the clock"
+    - src: /assets/shots/quick-geo/03.webp
+      alt: "Four answers, one is right"
+    - src: /assets/shots/quick-geo/04.webp
+      alt: "Flashcards that stick"
+    - src: /assets/shots/quick-geo/05.webp
+      alt: "One question every day"
   docs:
     - title: Support
       kind: support
@@ -67,6 +106,24 @@
     ios: 6814980254
     android: com.lalato.reflexo
   price: free
+  about: "Reflexo is a set of short reflex drills that measure how fast you react and show you getting faster."
+  features:
+    - "Train in 7 modes, including Ordered Rush, Race Launch and Memory Flash"
+    - "Tap 1 to 25 in order against the clock"
+    - "Wait for the lights, then react as fast as you can"
+    - "See your reaction time after every run"
+    - "Follow your progress and find the slow spots on the board"
+  shots:
+    - src: /assets/shots/reflexo/01.webp
+      alt: "Train your reflexes"
+    - src: /assets/shots/reflexo/02.webp
+      alt: "Tap 1 to 25 against the clock"
+    - src: /assets/shots/reflexo/03.webp
+      alt: "Wait for the lights"
+    - src: /assets/shots/reflexo/04.webp
+      alt: "7 modes to sharpen you"
+    - src: /assets/shots/reflexo/05.webp
+      alt: "Know your reaction time"
   docs:
     - title: Privacy Policy
       kind: privacy
@@ -87,6 +144,24 @@
     ios: 6760571293
     android: com.speedmath.speed_math
   price: free
+  about: "Quick Math Solver shows you an equation and a few seconds to decide: true or false?"
+  features:
+    - "Judge each equation before the timer runs out"
+    - "Answer with a tap or a swipe"
+    - "Choose from 7 modes and 3 difficulty levels"
+    - "Mix the operations you want to practise"
+    - "Track your accuracy and aim for a perfect 10"
+  shots:
+    - src: /assets/shots/quick-math-solver/01.webp
+      alt: "How fast can you think?"
+    - src: /assets/shots/quick-math-solver/02.webp
+      alt: "Right or wrong? Know instantly"
+    - src: /assets/shots/quick-math-solver/03.webp
+      alt: "Tap it or swipe it"
+    - src: /assets/shots/quick-math-solver/04.webp
+      alt: "7 modes, 3 levels"
+    - src: /assets/shots/quick-math-solver/05.webp
+      alt: "Mix the operations"
   docs:
     - title: Privacy Policy
       kind: privacy
@@ -109,6 +184,24 @@
     ios: 6793286974
     android: com.fortunecookie.fortune_cookie
   price: free
+  about: "Fortune Cookie gives you one cookie to crack open each day, with a new fortune inside."
+  features:
+    - "Crack open a fresh fortune every day"
+    - "Collect all 365 fortunes"
+    - "Find a different cookie for every season"
+    - "Keep the fortunes that speak to you as favourites"
+    - "Set a daily reminder so you never miss a cookie"
+  shots:
+    - src: /assets/shots/fortune-cookie/01.webp
+      alt: "Crack open your daily fortune"
+    - src: /assets/shots/fortune-cookie/02.webp
+      alt: "A new cookie for every season"
+    - src: /assets/shots/fortune-cookie/03.webp
+      alt: "365 fortunes to collect"
+    - src: /assets/shots/fortune-cookie/04.webp
+      alt: "Collect every season"
+    - src: /assets/shots/fortune-cookie/05.webp
+      alt: "Keep the ones that speak to you"
   docs:
     - title: Privacy Policy
       kind: privacy
