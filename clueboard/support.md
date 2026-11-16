@@ -33,23 +33,16 @@ the statement turns back to normal.
 ### How do hints work?
 
 A hint places one person in their correct square and pins them there. You start with
-three. When they run out, you can watch a short video for one more. Clueboard Noir Pro gives
-unlimited hints.
+three. When they run out, you can watch a short video for one more.
 
-### How do I remove the ads?
+### Can I remove the ads?
 
-Buy **Clueboard Noir Pro** from the ⋮ menu on the home screen → Remove ads. It is a one-time
-purchase that removes every ad and unlocks unlimited hints.
-
-### I reinstalled the app and Pro is gone.
-
-Open the ⋮ menu on the home screen and tap **Restore purchases**, signed in with the same
-Google or Apple account you bought it with.
+No. The game is free and paid for by ads; there is nothing to buy inside it.
 
 ### Will my progress move to a new phone?
 
 No. Solved cases, best times and hints are saved only on the device, and are removed if
-you uninstall the app. Pro can always be restored, progress cannot.
+you uninstall the app.
 
 ### Does it work without internet?
 

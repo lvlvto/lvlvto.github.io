@@ -4,7 +4,7 @@ title: "Clueboard Noir — Terms and Conditions"
 permalink: /clueboard/terms-and-conditions
 ---
 
-**Last updated: November 13, 2026**
+**Last updated: November 17, 2026**
 
 ## Introduction
 
@@ -27,20 +27,10 @@ resemblance to real persons or events is coincidental.
 
 ## Advertising
 
-The App is free and shows advertisements provided by Google AdMob. Watching an optional
+The App is free, has no in-app purchases, and shows advertisements provided by Google
+AdMob. Watching an optional
 video ad grants one extra hint; whether a video is available at a given moment depends
 on the advertising network and is not guaranteed.
-
-## In-App Purchases
-
-The App offers one optional, one-time purchase, **Clueboard Noir Pro**, which removes all
-advertising and gives unlimited hints.
-
-- Payment is processed by Google Play or the Apple App Store; we never receive your
-  payment details.
-- The purchase is tied to your Google or Apple account. After reinstalling the App or
-  moving to a new device, use **Restore purchases** in the ⋮ menu on the home screen.
-- Refunds are handled exclusively by Google Play or Apple under their refund policies.
 
 ## Your Progress
 

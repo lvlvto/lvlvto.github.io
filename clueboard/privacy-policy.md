@@ -4,7 +4,7 @@ title: "Clueboard Noir — Privacy Policy"
 permalink: /clueboard/privacy-policy
 ---
 
-**Last updated: November 13, 2026**
+**Last updated: November 17, 2026**
 
 ## Introduction
 
@@ -29,8 +29,6 @@ device and how you use the App:
 - **Google AdMob** — serves the advertisements shown inside the App.
 - **Google Firebase Analytics** — anonymous usage data, such as which cases are
   started and solved, how long they take and how many hints are used.
-- **Google Play Billing / Apple App Store** — process the one-time Clueboard Noir Pro
-  purchase.
 
 The data collected through these services may include:
 
@@ -38,8 +36,7 @@ The data collected through these services may include:
 - device information (e.g. device model, operating system version, language),
 - advertising identifiers — the Android Advertising ID (AAID) and, on iOS, the
   Identifier for Advertisers (IDFA) — as well as other anonymized identifiers,
-- coarse, IP-derived location (country/region level) used to serve relevant ads,
-- purchase status (no payment card data ever reaches us).
+- coarse, IP-derived location (country/region level) used to serve relevant ads.
 
 ## How We Use the Information
 
@@ -47,13 +44,12 @@ Collected data is used to:
 
 - display and measure advertisements,
 - understand which cases are too hard or too easy and improve the puzzles,
-- analyze app performance and fix problems,
-- unlock and restore the Clueboard Noir Pro purchase.
+- analyze app performance and fix problems.
 
 ## Advertising
 
 The App is free and supported by advertising provided by Google AdMob: a banner on the
-home and case list screens, an occasional full-screen ad between cases, and an optional
+home and case list screens and at the top of a case, an occasional full-screen ad between cases, and an optional
 video you can choose to watch for an extra hint.
 
 - **In the European Economic Area, the United Kingdom and Switzerland**, the App asks for
@@ -67,7 +63,6 @@ video you can choose to watch for an extra hint.
   **non-personalized ads** instead.
 - You can opt out of personalized advertising system-wide: on Android via
   **Settings → Google → Ads**, on iOS via the Tracking setting above.
-- Purchasing Clueboard Noir Pro disables all advertising in the App.
 
 How Google uses data from apps that use its services is described at
 <https://policies.google.com/technologies/partner-sites>.
