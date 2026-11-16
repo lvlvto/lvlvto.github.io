@@ -4,7 +4,7 @@ title: "Clueboard Treasure — Privacy Policy"
 permalink: /clueboard-treasure/privacy-policy
 ---
 
-**Last updated: November 12, 2026**
+**Last updated: November 17, 2026**
 
 ## Introduction
 
@@ -53,7 +53,7 @@ Collected data is used to:
 ## Advertising
 
 The App is free and supported by advertising provided by Google AdMob: a banner on the
-home screen and the list of maps and trails, an occasional full-screen ad between
+home screen, the list of maps and at the top of a map, an occasional full-screen ad between
 puzzles, and an optional video you can choose to watch for an extra hint or for one
 more shovel after a failed hunt.
 
